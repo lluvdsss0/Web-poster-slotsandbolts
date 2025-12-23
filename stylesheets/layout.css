@@ -1,0 +1,73 @@
+html {
+  background-color: #596d8b;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  font-family: "TTNeoris";
+  overflow-x: hidden;
+}
+
+.main-block {
+  background-image: url(../img/main-block-bg.svg);
+  background-size: cover; /* или contain, 100% и т.д. */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* параметры текста */
+
+/* серый текст */
+h3 {
+  font-size: 14px;
+  color: #101010;
+  opacity: 40%;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-size: 16px;
+  color: #101010;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* элементы */
+
+/* цветной круг */
+.circle-fill {
+  width: 0.64vw;
+  height: 0.64vw;
+  background-color: #101010;
+  border-radius: 50%;
+  border-radius: 50%;
+  border: 0.8px solid #101010;
+}
+
+/* круг с обводкой */
+.circle-outline {
+  width: 0.64vw;
+  height: 0.64vw;
+  border-radius: 50%;
+  border: 0.8px solid #101010;
+}
+
+/* капсула с градиентом */
+.pill-1 {
+  width: 260px;
+  height: 16px;
+  border-radius: 999px;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #3d5871 0%,
+    #add1e8 38%,
+    #e8f1ff 51%,
+    #d0edff 66%,
+    #ffb200 100%
+  );
+}

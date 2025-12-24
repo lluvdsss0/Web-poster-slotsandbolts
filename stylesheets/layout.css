@@ -11,18 +11,11 @@ body {
   overflow-x: hidden;
 }
 
-.main-block {
-  background-image: url(../img/main-block-bg.svg);
-  background-size: cover; /* или contain, 100% и т.д. */
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 /* параметры текста */
 
 /* серый текст */
 h3 {
-  font-size: 14px;
+  font-size: 19px;
   color: #101010;
   opacity: 40%;
   font-weight: 300;
@@ -30,34 +23,92 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 21px;
   color: #101010;
   font-weight: 400;
   letter-spacing: 0.5px;
 }
 
-/* элементы */
+.main-block {
+  background-image: url(../img/main-block-bg.svg);
+  background-size: cover; /* или contain, 100% и т.д. */
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-/* цветной круг */
-.circle-fill {
-  width: 0.64vw;
-  height: 0.64vw;
+.gap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+}
+
+/* элементы блока */
+#line-1 {
+  position: absolute;
+  width: 2px;
+  height: 27vw;
+  background-color: #101010;
+  opacity: 30%;
+  top: 0px;
+  left: 32vw;
+}
+
+#line-2 {
+  position: relative;
+  top: 27vw;
+  left: 50px;
+  width: 62vw;
+  height: 0px;
+  border-top: 2px dashed #101010;
+  opacity: 30%;
+  gap: 9px;
+}
+
+#line-3 {
+  position: absolute;
+  width: 2px;
+  height: 55vw;
+  background-color: #101010;
+  opacity: 30%;
+  top: 0px;
+  left: 65vw;
+}
+
+/* Описание организации */
+
+/* параметры дива */
+.transparent-rectangle {
+  width: 100vw;
+  height: 50px;
+  background-color: #fdfefd;
+}
+
+.organization {
+  margin-left: 50px;
+  max-width: 29vw;
+}
+
+/* элементы */
+.circle-fill     /* цветной круг */ {
+  width: 22px;
+  height: 22px;
   background-color: #101010;
   border-radius: 50%;
   border-radius: 50%;
-  border: 0.8px solid #101010;
+  border: 1.5px solid #101010;
+  margin: 60px 0;
 }
 
-/* круг с обводкой */
-.circle-outline {
-  width: 0.64vw;
-  height: 0.64vw;
+.circle-outline     /* круг с обводкой */ {
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
-  border: 0.8px solid #101010;
+  border: 1.5px solid #101010;
+  margin: 10px 0;
 }
 
-/* капсула с градиентом */
-.pill-1 {
+.pill-1    /* капсула с градиентом */ /* капсула с градиентом */ {
   width: 260px;
   height: 16px;
   border-radius: 999px;
@@ -70,4 +121,29 @@ p {
     #d0edff 66%,
     #ffb200 100%
   );
+}
+
+/* индивидуальные параметры текста */
+#organization-sab {
+  max-width: 460px;
+  margin-top: 50px;
+}
+
+/* Преимущества организации */
+
+/* параметры дива */
+.options {
+  width: 27vw;
+  margin: 60px 0;
+}
+
+/* Код доступа к казино */
+
+/* параметры дива */
+.access-code {
+  margin: 60px;
+  width: 26vw;
+}
+#if-dont-have-legs {
+  width: 420px;
 }

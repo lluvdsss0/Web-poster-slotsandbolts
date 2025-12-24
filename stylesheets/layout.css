@@ -13,7 +13,13 @@ body {
 
 /* параметры текста */
 
-/* серый текст */
+h1 {
+  font-size: 50px;
+  color: #101010;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
 h3 {
   font-size: 19px;
   color: #101010;
@@ -47,7 +53,7 @@ p {
 #line-1 {
   position: absolute;
   width: 2px;
-  height: 27vw;
+  height: 30vw;
   background-color: #101010;
   opacity: 30%;
   top: 0px;
@@ -56,7 +62,7 @@ p {
 
 #line-2 {
   position: relative;
-  top: 27vw;
+  top: 30vw;
   left: 50px;
   width: 62vw;
   height: 0px;
@@ -68,7 +74,7 @@ p {
 #line-3 {
   position: absolute;
   width: 2px;
-  height: 55vw;
+  height: 54vw;
   background-color: #101010;
   opacity: 30%;
   top: 0px;
@@ -97,7 +103,8 @@ p {
   border-radius: 50%;
   border-radius: 50%;
   border: 1.5px solid #101010;
-  margin: 60px 0;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .circle-outline     /* круг с обводкой */ {
@@ -134,16 +141,18 @@ p {
 /* параметры дива */
 .options {
   width: 27vw;
-  margin: 60px 0;
+  margin: 50px 0;
 }
 
 /* Код доступа к казино */
 
 /* параметры дива */
 .access-code {
-  margin: 60px;
-  width: 26vw;
+  margin: 50px;
+  width: 24vw;
 }
 #if-dont-have-legs {
   width: 420px;
 }
+
+/* параметры текста */

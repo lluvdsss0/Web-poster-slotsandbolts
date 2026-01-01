@@ -35,6 +35,13 @@ h3 {
   letter-spacing: 0.5px;
 }
 
+h4 {
+  font-size: 17px;
+  color: #101010;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
 p {
   font-size: 21px;
   color: #101010;
@@ -98,6 +105,7 @@ p {
 }
 
 .organization {
+  position: relative;
   margin-left: 50px;
   max-width: 29vw;
 }
@@ -193,6 +201,7 @@ p {
 
 /* индивидуальные параметры текста */
 #organization-sab {
+  position: relative;
   max-width: 460px;
   margin-top: 50px;
 }
@@ -215,6 +224,7 @@ p {
 }
 
 .reliability-and-rectangles {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -517,4 +527,10 @@ p {
 
 #schemes {
   width: 27.3vw;
+}
+
+.spam-folders {
+  position: relative;
+  margin-top: -540px;
+  margin-left: 50px;
 }

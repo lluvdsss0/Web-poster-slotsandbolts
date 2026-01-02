@@ -533,6 +533,9 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-left: 50px;
+  margin-top: -480px;
+  gap: 20px;
 }
 
 .spam-1 {
@@ -541,5 +544,46 @@ p {
 }
 
 #scheme-3 {
+  margin-bottom: 20px;
+}
+
+.spam-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.spam-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.spam-4 {
+  display: flex;
+  flex-direction: row;
+}
+
+#folder {
+  margin-right: 20px;
+}
+
+#polygon-1 {
+  margin-left: 155px;
+}
+
+#polygon-2 {
+  margin-left: 138px;
+}
+
+#polygon-3 {
+  margin-left: 89px;
+}
+
+#polygon-4 {
+  margin-left: 24px;
+}
+
+#broken-img {
   position: absolute;
+  top: -80px;
+  left: 1015px;
 }

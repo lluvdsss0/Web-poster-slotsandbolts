@@ -116,7 +116,6 @@ p {
   height: 22px;
   background-color: #101010;
   border-radius: 50%;
-  border-radius: 50%;
   border: 1.5px solid #101010;
   margin-top: 60px;
   margin-bottom: 40px;
@@ -586,4 +585,49 @@ p {
   position: absolute;
   top: -80px;
   left: 1015px;
+}
+
+.section2-anxious-notification {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.elements-on-rectangle {
+  margin-left: 85px;
+  margin-top: -115px;
+}
+
+#notification-bg-rectangle {
+  margin-left: 50px;
+  width: 550px;
+  height: 150px;
+  background-color: #d1d7da;
+  border-radius: 18px;
+}
+
+.notification-title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#warning {
+  font-weight: 600;
+}
+
+.notification {
+  display: flex;
+  flex-direction: column;
+}
+
+#warning-text {
+  margin-left: 29px;
+  width: 450px;
+}
+
+#close-notification {
+  width: 19px;
 }

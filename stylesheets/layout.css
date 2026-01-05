@@ -9,6 +9,8 @@ body {
   position: relative;
   font-family: "TTNeoris";
   overflow-x: hidden;
+  overflow-y: hidden;
+  height: 4340px;
 }
 
 /* свечение */
@@ -996,7 +998,7 @@ p {
 
 .section7-location {
   position: relative;
-  margin-left: 66vw;
+  margin-left: 67vw;
   margin-top: 160px;
 }
 
@@ -1250,4 +1252,85 @@ p {
 
 #bankrupt-text {
   color: #fdfefd;
+}
+
+.section9-notification-clock {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: -1200px;
+  padding-top: 330px;
+  margin-left: 300px;
+}
+
+.elements-on-rectangle-clock {
+  margin-left: 85px;
+  margin-top: -115px;
+}
+
+#notification-clock-bg-rectangle {
+  margin-left: 50px;
+  width: 660px;
+  height: 150px;
+  background-color: #d1d7da;
+  border-radius: 18px;
+}
+
+.notification-clock-title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#time-passed {
+  font-weight: 600;
+}
+
+.notification-clock {
+  display: flex;
+  flex-direction: column;
+}
+
+#time-passed-text {
+  margin-left: 29px;
+  width: 550px;
+}
+
+#close-notification-clock {
+  width: 19px;
+}
+
+#notification-scheme-clock {
+  width: 190px;
+  margin-top: 150px;
+  margin-left: -350px;
+}
+
+.section-10-clock {
+  position: relative;
+  margin-top: -470px;
+  margin-left: 560px;
+}
+
+#clock {
+  width: 570px;
+}
+
+#arrow-clock-vertical {
+  position: absolute;
+  height: 155px;
+}
+
+#arrow-clock-horizontal {
+  position: absolute;
+  top: 143px;
+  left: 8px;
+  width: 120px;
+}
+
+.arrows-clock {
+  position: relative;
+  margin-top: -445px;
+  margin-left: 280px;
 }

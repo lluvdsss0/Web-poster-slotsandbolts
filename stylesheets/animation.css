@@ -1,0 +1,42 @@
+#access-code-text:after {
+  content: "1AE764THM28IU";
+  animation: change-code 1.5s steps(1, end) infinite;
+  font-size: 61px;
+  color: #101010;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+@keyframes change-code {
+  0%,
+  60% {
+    content: "1AE764THM28IU";
+  }
+  60%,
+  65% {
+    content: "1#E7&4@HM2^I%";
+  }
+  65%,
+  70% {
+    content: "«AE7#»&T^M$I";
+  }
+  70%,
+  75% {
+    content: "%A!764$HMIU";
+  }
+  75%,
+  80% {
+    content: "1A*7%4@M#&U";
+  }
+  80%,
+  85% {
+    content: "@AE7$%T*28U";
+  }
+  85%,
+  90% {
+    content: "1#E404@HM08%";
+  }
+  90%,
+  100% {
+    content: "1AE764THM28IU";
+  }
+}

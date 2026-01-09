@@ -145,22 +145,15 @@ p {
 }
 
 /* элементы */
-.circle-fill     /* цветной круг */ {
-  width: 22px;
-  height: 22px;
-  background-color: #101010;
-  border-radius: 50%;
-  border: 1.5px solid #101010;
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
 
-.circle-outline     /* круг с обводкой */ {
+#main-circles {
+  background-image: url(../img/main-circles-1.svg);
   width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  border: 1.5px solid #101010;
-  margin: 10px 0;
+  height: 100px;
+  background-repeat: no-repeat;
+  position: relative;
+  animation: changeBackground 1.5s infinite steps(1);
+  margin-top: 70px;
 }
 
 .pills-access {
@@ -362,7 +355,7 @@ p {
 /* параметры дива */
 .access-code {
   margin: 50px;
-  width: 26vw;
+  width: 27vw;
 }
 
 /* параметры текста */
@@ -509,6 +502,7 @@ p {
   gap: 100px;
   margin-left: -15px;
   margin-top: -5px;
+  animation: Opacity-arrows infinite 1s steps(1);
 }
 
 /*черный квадратик в виде ошибки*/
@@ -531,16 +525,21 @@ p {
 .access-code-and-errors {
   display: flex;
   flex-direction: row;
-  gap: 10px;
-}
-
-/* параметры свг */
-#error {
-  max-width: 18px;
+  gap: 240px;
 }
 
 #access-code {
-  margin-right: 257px;
+  white-space: nowrap;
+}
+
+/* параметры свг */
+
+.access-code-error {
+  background-image: url(../img/access-code-1.svg);
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 22px;
+  animation: ChangeBg-errors-access 1.5s infinite steps(1);
 }
 
 #access-code-text {

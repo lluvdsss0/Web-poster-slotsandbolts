@@ -40,3 +40,77 @@
     content: "1AE764THM28IU";
   }
 }
+
+@keyframes changeBackground {
+  0% {
+    background-image: url(../img/main-circles-1.svg);
+  }
+  25% {
+    background-image: url(../img/main-circles-2.svg);
+  }
+  50% {
+    background-image: url(../img/main-circles-3.svg);
+  }
+  70% {
+    background-image: url(../img/main-circles-2.svg);
+  }
+  100% {
+    background-image: url(../img/main-circles-1.svg);
+  }
+}
+#main-circles {
+  animation: changeBackground 1.5s infinite steps(1);
+}
+
+#main-circles:hover {
+  animation-play-state: paused;
+}
+
+@keyframes ChangeBg-errors-access {
+  0% {
+    background-image: url(../img/access-code-1.svg);
+  }
+  25% {
+    background-image: url(../img/access-code-2.svg);
+  }
+  50% {
+    background-image: url(../img/access-code-3.svg);
+  }
+  70% {
+    background-image: url(../img/access-code-2.svg);
+  }
+  100% {
+    background-image: url(../img/access-code-1.svg);
+  }
+}
+
+.access-code-error {
+  animation: ChangeBg-errors-access 1.5s infinite steps(1);
+}
+
+.access-code-error:hover {
+  animation-play-state: paused;
+}
+
+@keyframes Opacity-arrows {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.arrows-options {
+  padding: 20px;
+  animation: Opacity-arrows infinite 1s steps(1);
+}
+
+/* интерактив */
+.arrows-options:hover {
+  opacity: 100%;
+  animation-play-state: paused;
+}

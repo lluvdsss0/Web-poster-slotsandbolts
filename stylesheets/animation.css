@@ -109,8 +109,33 @@
   animation: Opacity-arrows infinite 1s steps(1);
 }
 
-/* интерактив */
 .arrows-options:hover {
   opacity: 100%;
+  animation-play-state: paused;
+}
+
+@keyframes scheme-bg-animation {
+  0% {
+    background-image: url(../img/schemes.svg);
+  }
+  25% {
+    background-image: url(../img/schemes-anim-1.svg);
+  }
+  50% {
+    background-image: url(../img/schemes-anim-2.svg);
+  }
+  75% {
+    background-image: url(../img/schemes-anim-1.svg);
+  }
+  100% {
+    background-image: url(../img/schemes.svg);
+  }
+}
+
+#schemes {
+  animation: scheme-bg-animation infinite 1.2s steps(1);
+}
+
+#schemes:hover {
   animation-play-state: paused;
 }

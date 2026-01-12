@@ -139,3 +139,250 @@
 #schemes:hover {
   animation-play-state: paused;
 }
+
+@keyframes sсheme-3-bg-animation {
+  0% {
+    background-image: url(../img/schemes-spam-1.svg);
+  }
+  25% {
+    background-image: url(../img/schemes-spam-2.svg);
+  }
+  50% {
+    background-image: url(../img/schemes-spam-3.svg);
+  }
+  75% {
+    background-image: url(../img/schemes-spam-2.svg);
+  }
+  100% {
+    background-image: url(../img/schemes-spam-1.svg);
+  }
+}
+
+#scheme-3 {
+  animation: sсheme-3-bg-animation infinite 1.5s steps(1);
+}
+
+#time::after {
+  content: "1|";
+  animation: change-time 4s steps(1, end) infinite;
+  font-size: 19px;
+  color: #101010;
+  opacity: 40%;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+@keyframes change-time {
+  0% {
+    content: "1|";
+  }
+  10% {
+    content: "1";
+  }
+  15% {
+    content: "13|";
+  }
+  25% {
+    content: "13";
+  }
+  40% {
+    content: "13:|";
+  }
+  50% {
+    content: "13:";
+  }
+  60% {
+    content: "13:0|";
+  }
+  70% {
+    content: "13:0";
+  }
+  80% {
+    content: "13:00|";
+  }
+  90% {
+    content: "13:0|";
+  }
+  92% {
+    content: "13:|";
+  }
+  94% {
+    content: "13|";
+  }
+  96% {
+    content: "1|";
+  }
+  100% {
+    content: "1";
+  }
+}
+
+#casino-for-robots {
+  overflow: hidden;
+  border-right: 2px solid #454545;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 5.5s steps(40) infinite, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #454545;
+  }
+}
+
+#spam-1-text::after {
+  content: "Смотреть видео с болтиками";
+  animation: change-spam-text-1 1.5s steps(1, end) infinite;
+  font-size: 21px;
+  color: #101010;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+@keyframes change-spam-text-1 {
+  0% {
+    content: "Смотреть видео с болтиками";
+  }
+  60% {
+    content: "С$тр@ь вид^о с б%лт*#ами";
+  }
+  70% {
+    content: "Смо&?еть в@ео с! &лти#ми";
+  }
+  80% {
+    content: "%от#ть ви~ео с >$л^к#ми";
+  }
+  85% {
+    content: "@#$%#@! *&%$#$ @ (*&^@&*";
+  }
+  90% {
+    content: "С%т#еть ви!@&ео с болт^ми";
+  }
+  95% {
+    content: "Смо%$ть ви$ео с бо!@т*$!и";
+  }
+  100% {
+    content: "Смотреть видео с болтиками";
+  }
+}
+
+#spam-2-text::after {
+  content: "Забери свой первый выигрыш!";
+  animation: change-spam-2-text 1.2s steps(1, end) infinite;
+  font-size: 21px;
+  color: #101010;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+@keyframes change-spam-2-text {
+  0% {
+    content: "Забери свой первый выигрыш!";
+  }
+  60% {
+    content: "Заб@$ри с!й п#*&вй вы#@$рш!";
+  }
+  70% {
+    content: "За@$ри %ой п*&^вый в!@^%ш!";
+  }
+  80% {
+    content: "%$@^#&* @*@^ (#@)@ !&%@$%!";
+  }
+  85% {
+    content: "З1@б@ри *&й пе1вый выигрыш!";
+  }
+  90% {
+    content: "За*^%@$и свой п@ый &@@^&@*!";
+  }
+  95% {
+    content: "З!@#$ри @й пер! в#$%%рыш!";
+  }
+  100% {
+    content: "Забери свой первый выигрыш!";
+  }
+}
+
+#spam-3-text::after {
+  content: "Шок! Робот обезумел прямо в зале!";
+  animation: change-spam-text-3 1.7s steps(1, end) infinite;
+  font-size: 21px;
+  color: #101010;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+@keyframes change-spam-text-3 {
+  0% {
+    content: "Шок! Робот обезумел прямо в зале!";
+  }
+  60% {
+    content: "Шок! Р%$от об@#ел пря*&%мо в @ле!";
+  }
+  70% {
+    content: "Шок! %^от об@#$%ел п#$Zмо в з#$!";
+  }
+  80% {
+    content: "Ш$к! Робот об@#$умел *&^мо в @ле!";
+  }
+  85% {
+    content: "&^$ (&^% Y%@!@ !%^@&#* @ @&#!";
+  }
+  90% {
+    content: "Шо@! Р$%^т об@#Z$мел @мо в *&ле!";
+  }
+  95% {
+    content: "Шо!! Р#$%от обе#$1л п@мо & зале!";
+  }
+  100% {
+    content: "Шок! Робот обезумел прямо в зале!";
+  }
+}
+
+#spam-4-text::after {
+  content: "Драка роботов попала на скрытые камеры";
+  animation: change-spam-text-4 1.5s steps(1, end) infinite;
+  font-size: 21px;
+  color: #101010;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+@keyframes change-spam-text-4 {
+  0% {
+    content: "Драка роботов попала на скрытые камеры";
+  }
+  60% {
+    content: "Драка р%^&ов по@#а на ск!#$ые кам#$";
+  }
+  70% {
+    content: "^%%@ **W# (*2(@ !@#$ %@$% *^%$@^*(*^%";
+  }
+  80% {
+    content: "Др$а роботов ##пала на с@#ытые кам#$$";
+  }
+  85% {
+    content: "##### ####### ###### ## ####### ####";
+  }
+  90% {
+    content: "???? ???? ??? ?? ?? ?? ????????????";
+  }
+  95% {
+    content: "%$@$^ 826%@ 9175516 (*#^@ @)_!(@*";
+  }
+  100% {
+    content: "Драка роботов попала на скрытые камеры";
+  }
+}

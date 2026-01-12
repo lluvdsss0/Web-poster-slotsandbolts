@@ -399,6 +399,13 @@ p {
   left: 915px;
 }
 
+#qr-and-errors {
+  background-repeat: no-repeat;
+  background-image: url(../img/qr-and-errors.svg);
+  height: 410px;
+  width: 200px;
+}
+
 /* штучка в виде микросхемы */
 
 #line-4 {
@@ -569,7 +576,7 @@ p {
   flex-direction: column;
   position: relative;
   margin-left: 50px;
-  margin-top: -480px;
+  margin-top: -520px;
   gap: 20px;
 }
 
@@ -579,7 +586,10 @@ p {
 }
 
 #scheme-3 {
-  margin-bottom: 20px;
+  background-image: url(../img/schemes-spam-1.svg);
+  width: 490px;
+  height: 60px;
+  background-repeat: no-repeat;
 }
 
 .spam-2 {
@@ -619,7 +629,7 @@ p {
 
 #broken-img {
   position: absolute;
-  top: -80px;
+  top: -45px;
   left: 1015px;
 }
 

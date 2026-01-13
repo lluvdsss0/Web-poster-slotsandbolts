@@ -386,3 +386,76 @@
     content: "Драка роботов попала на скрытые камеры";
   }
 }
+
+.running-line-text {
+  content: url(../img/running-line-text-1.svg);
+  animation: scroll 10s linear infinite,
+    change-letters 0.3s steps(1, end) infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes change-letters {
+  0% {
+    content: url(../img/running-line-text-1.svg);
+  }
+  30% {
+    content: url(../img/running-line-text-2.svg);
+  }
+  50% {
+    content: url(../img/running-line-text-3.svg);
+  }
+  70% {
+    content: url(../img/running-line-text-4.svg);
+  }
+  100% {
+    content: url(../img/running-line-text-1.svg);
+  }
+}
+
+.running-line-text:hover {
+  animation-play-state: paused;
+}
+
+#pill-1:hover {
+  background: #ffb200;
+}
+
+#pill-2:hover {
+  background: #ffb200;
+}
+
+#pill-3:hover {
+  background: #ffb200;
+}
+
+#pill-4:hover {
+  background: #ffb200;
+}
+
+#pill-reg-1:hover {
+  background: #ffb200;
+}
+
+#pill-reg-2:hover {
+  background: #ffb200;
+}
+
+#pill-reg-3:hover {
+  background: #ffb200;
+}
+
+#pill-reg-4:hover {
+  background: #ffb200;
+}
+
+.section2-anxious-notification:hover {
+  opacity: 0;
+}

@@ -688,12 +688,13 @@ p {
   width: 100vw;
   height: 260px;
   background-color: #d1d7da;
+  margin-top: 40px;
 }
 
 #lines-running {
   position: absolute;
   top: 27px;
-  width: 100vw;
+  width: 200vw;
 }
 
 .section3-running-line {
@@ -701,81 +702,8 @@ p {
 }
 
 .running-line-text {
-  display: flex;
-  flex-direction: row;
-}
-
-#long-text {
-  opacity: 100;
-  width: 400px;
-  padding-left: 60px;
-  padding-top: 90px;
-}
-
-#letter-1 {
-  font-weight: 600;
-  font-size: 228px;
-}
-
-#letter-2 {
-  margin-left: -10px;
-  margin-top: 53px;
-  font-weight: 600;
-  font-size: 141px;
-}
-
-#letter-3 {
-  font-weight: 600;
-  font-size: 200px;
-  margin-left: -7px;
-  margin-top: 15px;
-}
-
-#letter-4 {
-  font-weight: 600;
-  font-size: 230px;
-  margin-left: 5px;
-}
-
-#letter-5 {
-  font-weight: 600;
-  font-size: 207px;
-  margin-top: 9px;
-  letter-spacing: -16px;
-}
-
-#letter-6 {
-  font-weight: 600;
-  font-size: 240px;
-  margin-left: 2px;
-  margin-top: 63px;
-}
-
-#letter-7 {
-  font-weight: 600;
-  font-size: 210px;
-  margin-left: -10px;
-}
-
-#letter-8 {
-  font-weight: 600;
-  font-size: 180px;
-  margin-top: 23px;
-  margin-left: 5px;
-}
-
-#letter-9 {
-  font-weight: 600;
-  font-size: 285px;
-  margin-top: -11px;
-  margin-left: 10px;
-}
-
-#letter-10 {
-  font-weight: 600;
-  font-size: 210px;
-  margin-left: -7px;
-  margin-top: -10px;
+  position: relative;
+  margin-top: -400px;
 }
 
 .section-4-regulate {

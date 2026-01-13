@@ -1,23 +1,42 @@
-<svg width="1280" height="159" viewBox="0 0 1280 159" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" d="M348 158L348 1" stroke="#101010"/>
-<path opacity="0.4" d="M436 158L436 1" stroke="#101010"/>
-<path opacity="0.4" d="M525 158L525 1" stroke="#101010"/>
-<path opacity="0.4" d="M552 158L552 1" stroke="#101010"/>
-<path opacity="0.4" d="M653 158L653 1" stroke="#101010"/>
-<path opacity="0.4" d="M729 158L729 1" stroke="#101010"/>
-<path opacity="0.4" d="M857 158L857 1" stroke="#101010"/>
-<path opacity="0.4" d="M934 158L934 1" stroke="#101010"/>
-<path opacity="0.4" d="M961 158L961 1" stroke="#101010"/>
-<path opacity="0.4" d="M1063 158L1063 1" stroke="#101010"/>
-<path opacity="0.4" d="M1240 158L1240 1" stroke="#101010"/>
-<path opacity="0.4" d="M40 158L40 1" stroke="#101010"/>
-<path opacity="0.4" d="M-13 0.5H1280" stroke="#101010" stroke-dasharray="9 9"/>
-<path opacity="0.4" d="M-13 158.5H1280" stroke="#101010" stroke-dasharray="9 9"/>
-<path opacity="0.4" d="M1212 158L1212 1" stroke="#101010"/>
-<path opacity="0.4" d="M40.5 130.5H728.5" stroke="#101010" stroke-dasharray="9 9"/>
-<path opacity="0.4" d="M857.5 130.5H1062.5" stroke="#101010" stroke-dasharray="9 9"/>
-<path opacity="0.4" d="M436.5 40.5L551.5 40.5" stroke="#101010" stroke-dasharray="9 9"/>
-<path opacity="0.4" d="M40.5 40.5L347.5 40.5" stroke="#101010" stroke-dasharray="9 9"/>
-<path opacity="0.4" d="M857.5 52.5L960.5 52.5" stroke="#101010" stroke-dasharray="9 9"/>
-<path opacity="0.4" d="M1212.5 52.5H1239.5" stroke="#101010" stroke-dasharray="9 9"/>
+<svg width="2465" height="159" viewBox="0 0 2465 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.4" d="M1533 158L1533 1" stroke="#101010"/>
+<path opacity="0.4" d="M1621 158L1621 1" stroke="#101010"/>
+<path opacity="0.4" d="M1710 158L1710 1" stroke="#101010"/>
+<path opacity="0.4" d="M1737 158L1737 1" stroke="#101010"/>
+<path opacity="0.4" d="M1838 158L1838 1" stroke="#101010"/>
+<path opacity="0.4" d="M1914 158L1914 1" stroke="#101010"/>
+<path opacity="0.4" d="M2042 158L2042 1" stroke="#101010"/>
+<path opacity="0.4" d="M2119 158L2119 1" stroke="#101010"/>
+<path opacity="0.4" d="M2146 158L2146 1" stroke="#101010"/>
+<path opacity="0.4" d="M2248 158L2248 1" stroke="#101010"/>
+<path opacity="0.4" d="M2425 158L2425 1" stroke="#101010"/>
+<path opacity="0.4" d="M1225 158L1225 1" stroke="#101010"/>
+<path opacity="0.4" d="M1172 0.5H2465" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M1172 158.5H2465" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M2397 158L2397 1" stroke="#101010"/>
+<path opacity="0.4" d="M1225.5 130.5H1913.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M2042.5 130.5H2247.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M1621.5 40.5L1736.5 40.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M1225.5 40.5L1532.5 40.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M2042.5 52.5L2145.5 52.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M2397.5 52.5H2424.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M361 158L361 1" stroke="#101010"/>
+<path opacity="0.4" d="M449 158L449 1" stroke="#101010"/>
+<path opacity="0.4" d="M538 158L538 1" stroke="#101010"/>
+<path opacity="0.4" d="M565 158L565 1" stroke="#101010"/>
+<path opacity="0.4" d="M666 158L666 1" stroke="#101010"/>
+<path opacity="0.4" d="M742 158L742 1" stroke="#101010"/>
+<path opacity="0.4" d="M870 158L870 1" stroke="#101010"/>
+<path opacity="0.4" d="M947 158L947 1" stroke="#101010"/>
+<path opacity="0.4" d="M974 158L974 1" stroke="#101010"/>
+<path opacity="0.4" d="M1076 158L1076 1" stroke="#101010"/>
+<path opacity="0.4" d="M53 158L53 1" stroke="#101010"/>
+<path opacity="0.4" d="M0 0.5H1293" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M0 158.5H1293" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M1225 158L1225 1" stroke="#101010"/>
+<path opacity="0.4" d="M53.5 130.5H741.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M870.5 130.5H1075.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M449.5 40.5L564.5 40.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M53.5 40.5L360.5 40.5" stroke="#101010" stroke-dasharray="9 9"/>
+<path opacity="0.4" d="M870.5 52.5L973.5 52.5" stroke="#101010" stroke-dasharray="9 9"/>
 </svg>

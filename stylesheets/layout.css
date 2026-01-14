@@ -10,7 +10,7 @@ body {
   font-family: "TTNeoris";
   overflow-x: hidden;
   overflow-y: hidden;
-  height: 4340px;
+  height: 4390px;
 }
 
 /* свечение */
@@ -737,16 +737,6 @@ p {
   top: 340px;
 }
 
-#circle-fill-reg     /* двигающийся круг */ {
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  background-color: #5e728e;
-  border-radius: 50%;
-  top: 290px;
-  left: 115px;
-}
-
 #circle-plus-reg {
   width: 24px;
   margin-bottom: 15px;
@@ -915,6 +905,11 @@ p {
   width: 400px;
   left: 227px;
   top: 100px;
+  font-size: 19px;
+  color: #101010;
+  opacity: 100%;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
 
 .section6-lucky-ticket {
@@ -923,11 +918,10 @@ p {
   margin-top: -480px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
 }
 
 #lucky-ticket {
-  margin-left: -107px;
+  margin-left: -90px;
   width: 604px;
   height: 710px;
 }
@@ -1060,7 +1054,6 @@ p {
 }
 
 #loading {
-  width: 100px;
   margin-left: 125px;
   margin-top: 90px;
 }
@@ -1068,6 +1061,7 @@ p {
 #scheme-location {
   position: absolute;
   left: 420px;
+  top: 260px;
   width: 63px;
 }
 
@@ -1504,4 +1498,209 @@ p {
 
 #schemes-footer {
   width: 36vw;
+}
+
+.lucky-ticket-elements {
+  position: absolute;
+  left: 9px;
+  top: 9px;
+}
+
+.error {
+  background-image: url(../img/lucky-ticket-error.svg);
+  position: absolute;
+  height: 3vw;
+  width: 3vw;
+  background-size: 100% 100%;
+}
+
+#error1 {
+  top: 24px;
+  left: 544px;
+}
+
+#error2 {
+  top: 24px;
+  left: 736px;
+}
+
+#error3 {
+  top: 126px;
+  left: 352px;
+}
+
+#error4 {
+  top: 126px;
+  left: 448px;
+}
+
+#error5 {
+  top: 126px;
+  left: 640px;
+}
+
+#error6 {
+  top: 126px;
+  left: 736px;
+}
+
+#error7 {
+  top: 223px;
+  left: 352px;
+}
+
+#error8 {
+  top: 223px;
+  left: 544px;
+}
+
+#error9 {
+  top: 223px;
+  left: 640px;
+}
+
+#error10 {
+  top: 320px;
+  left: 352px;
+}
+
+#error11 {
+  top: 320px;
+  left: 445px;
+}
+
+#error12 {
+  top: 320px;
+  left: 736px;
+}
+
+#error13 {
+  top: 418px;
+  left: 352px;
+}
+
+#error14 {
+  top: 418px;
+  left: 448px;
+}
+
+#error15 {
+  top: 418px;
+  left: 544px;
+}
+
+#error16 {
+  top: 418px;
+  left: 640px;
+}
+
+#error17 {
+  top: 418px;
+  left: 736px;
+}
+
+#error18 {
+  top: 516px;
+  left: 448px;
+}
+
+#error19 {
+  top: 516px;
+  left: 544px;
+}
+
+#error20 {
+  top: 516px;
+  left: 640px;
+}
+
+#error21 {
+  top: 516px;
+  left: 736px;
+}
+
+#error22 {
+  top: 615px;
+  left: 352px;
+}
+
+#error23 {
+  top: 615px;
+  left: 448px;
+}
+
+#error24 {
+  top: 615px;
+  left: 544px;
+}
+
+.zero {
+  position: absolute;
+  background-image: url(../img/0.svg);
+  width: 3vw;
+  height: 3vw;
+  background-size: 100% 100%;
+}
+
+#zero1 {
+  top: 24px;
+  left: 352px;
+}
+
+#zero2 {
+  top: 24px;
+  left: 448px;
+}
+
+#zero3 {
+  top: 126px;
+  left: 544px;
+}
+
+#zero4 {
+  top: 320px;
+  left: 640px;
+}
+
+#zero5 {
+  top: 516px;
+  left: 352px;
+}
+
+#zero6 {
+  top: 615px;
+  left: 640px;
+}
+
+.four {
+  position: absolute;
+  background-image: url(../img/4.svg);
+  width: 3vw;
+  height: 3vw;
+  background-size: 100% 100%;
+}
+
+#four1 {
+  top: 24px;
+  left: 640px;
+}
+
+#four2 {
+  top: 223px;
+  left: 448px;
+}
+
+#four3 {
+  top: 223px;
+  left: 736px;
+}
+
+#four4 {
+  top: 320px;
+  left: 544px;
+}
+
+#four5 {
+  top: 615px;
+  left: 736px;
 }

@@ -866,3 +866,106 @@
     background-color: #fdfefd;
   }
 }
+
+#circle-qr-1 {
+  animation: circleQr 2s steps(1) infinite;
+}
+
+#circle-qr-2 {
+  animation: circleQr 1.7s steps(1) infinite;
+  animation-delay: 1.5s;
+}
+
+#circle-qr-3 {
+  animation: circleQr 1s steps(1) infinite;
+  animation-delay: 2s;
+}
+
+#circle-qr-4 {
+  animation: circleQr 2s steps(1) infinite;
+  animation-delay: 3.5s;
+}
+
+#circle-qr-5 {
+  animation: circleQr 2.2s steps(1) infinite;
+  animation-delay: 4s;
+}
+
+#circle-qr-6 {
+  animation: circleQr 2s steps(1) infinite;
+  animation-delay: 5.5s;
+}
+
+#circle-qr-7 {
+  animation: circleQr 2.1s steps(1) infinite;
+  animation-delay: 6s;
+}
+
+@keyframes circleQr {
+  0%,
+  100% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #101010;
+  }
+}
+
+.arrowsQr {
+  animation: qrAndArrows infinite 1s steps(1);
+}
+
+@keyframes qrAndArrows {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+#arrow-clock-vertical {
+  animation: arrowClock 0.15s steps(1) infinite;
+}
+
+@keyframes arrowClock {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    transform: rotate(15deg);
+    left: 20px;
+    top: 0px;
+  }
+}
+
+.section9-notification-clock:hover {
+  opacity: 0;
+}
+
+#qr-and-errors {
+  background-image: url(../img/qr-and-errors-1.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  animation: qrDecor 1.8s steps(1) infinite;
+}
+
+@keyframes qrDecor {
+  0%,
+  100% {
+    background-image: url(../img/qr-and-errors-1.svg);
+  }
+  25% {
+    background-image: url(../img/qr-and-errors-2.svg);
+  }
+  50% {
+    background-image: url(../img/qr-and-errors-3.svg);
+  }
+  75% {
+    background-image: url(../img/qr-and-errors-4.svg);
+  }
+}

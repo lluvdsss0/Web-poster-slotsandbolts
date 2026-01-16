@@ -10,7 +10,7 @@ body {
   font-family: "TTNeoris";
   overflow-x: hidden;
   overflow-y: hidden;
-  height: 4390px;
+  height: 261.8vw;
 }
 
 /* свечение */
@@ -544,6 +544,7 @@ p {
 .access-code-error {
   background-image: url(../img/access-code-1.svg);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 15.38vw;
   height: 1.3vw;
   animation: ChangeBg-errors-access 1.5s infinite steps(1);
@@ -567,6 +568,7 @@ p {
 #schemes {
   background-image: url(../img/schemes.svg);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 27.3vw;
   height: 5.325vw;
 }
@@ -587,6 +589,7 @@ p {
 
 #scheme-3 {
   background-image: url(../img/schemes-spam-1.svg);
+  background-size: 100% 100%;
   width: 28.994vw;
   height: 3.55vw;
   background-repeat: no-repeat;
@@ -727,6 +730,7 @@ p {
   top: 11.83vw;
   left: 2.96vw;
   padding-bottom: 5.9vw;
+  height: 68.3vw;
 }
 
 .decor-1 {
@@ -776,9 +780,8 @@ p {
   gap: 0.59vw;
 }
 
-.decor-3 {
-  display: flex;
-  flex-direction: column;
+#decor-3 {
+  width: 1.18vw;
 }
 
 #pill-reg-1 {
@@ -902,8 +905,8 @@ p {
 #imagine {
   position: absolute;
   opacity: 100;
-  width: 400px;
-  left: 227px;
+  width: 23.669vw;
+  left: 13.432vw;
   top: 5.9vw;
   font-size: 1.12vw;
   color: #101010;
@@ -914,43 +917,44 @@ p {
 
 .section6-lucky-ticket {
   position: relative;
-  margin-left: 780px;
-  margin-top: -480px;
+  margin-left: 46.154vw;
+  margin-top: -28.4vw;
   display: flex;
   flex-direction: row;
+  width: 36vw;
 }
 
 #lucky-ticket {
-  margin-left: -90px;
-  width: 604px;
-  height: 710px;
+  margin-left: -5.325vw;
+  width: 35.74vw;
+  height: 42vw;
 }
 
 #arrow-lucky {
-  margin-left: 40px;
+  margin-left: 2.367vw;
 }
 
 .section7-location {
   position: relative;
   margin-left: 67vw;
-  margin-top: 160px;
+  margin-top: 9.467vw;
 }
 
 #location-bg {
-  width: 550px;
+  width: 32.544vw;
 }
 
 #coordinates {
   color: #fdfefd;
   margin-left: 8.28vw;
-  margin-top: -900px;
-  width: 262px;
+  margin-top: -53.254vw;
+  width: 15.503vw;
 }
 
 #theclosest-point {
   color: #fdfefd;
   margin-left: 8.28vw;
-  margin-top: 10px;
+  margin-top: 0.592vw;
 }
 
 #white-circle-plus {
@@ -988,9 +992,9 @@ p {
 .rectangles-group {
   display: flex;
   flex-direction: row;
-  gap: 45px;
-  margin-left: 140px;
-  margin-top: -325px;
+  gap: 2.663vw;
+  margin-left: 8.284vw;
+  margin-top: -19.23vw;
 }
 
 .rectangles1112 {
@@ -1001,14 +1005,14 @@ p {
 
 #rectangle-11 {
   width: 0.296vw;
-  height: 6px;
+  height: 0.355vw;
   background-color: #fdfefd;
   opacity: 60%;
 }
 
 #rectangle-12 {
   width: 0.296vw;
-  height: 6px;
+  height: 0.355vw;
   background-color: #fdfefd;
   opacity: 60%;
 }
@@ -1021,14 +1025,14 @@ p {
 
 #rectangle-13 {
   width: 0.296vw;
-  height: 13px;
+  height: 0.769vw;
   background-color: #fdfefd;
   opacity: 60%;
 }
 
 #rectangle-14 {
   width: 0.296vw;
-  height: 13px;
+  height: 0.769vw;
   background-color: #fdfefd;
   opacity: 60%;
 }
@@ -1054,29 +1058,29 @@ p {
 }
 
 #loading {
-  margin-left: 125px;
-  margin-top: 90px;
+  margin-left: 7.396vw;
+  margin-top: 5.325vw;
 }
 
 #scheme-location {
   position: absolute;
-  left: 420px;
-  top: 260px;
-  width: 63px;
+  left: 24.85vw;
+  top: 15.385vw;
+  width: 3.728vw;
 }
 
 #bolts {
-  margin-top: 122px;
-  width: 550px;
+  margin-top: 7.45vw;
+  width: 32.544vw;
 }
 
 .section-8-fortuna {
   position: relative;
-  margin-top: -230px;
+  margin-top: -13.609vw;
 }
 
 #fortuna-bg {
-  width: 400px;
+  width: 23.669vw;
 }
 
 .fortuna-group {
@@ -1084,17 +1088,17 @@ p {
   flex-direction: row;
   gap: 1.18vw;
   margin-left: 2.96vw;
-  margin-top: -730px;
+  margin-top: -43.195vw;
 }
 
 #pointsss {
-  width: 60px;
-  margin-right: 60px;
+  width: 3.55vw;
+  margin-right: 3.55vw;
 }
 
 #circle-fill-fortuna     /* цветной круг */ {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   background-color: #fdfefd;
   border-radius: 50%;
   border: 1.5px solid #fdfefd;
@@ -1102,17 +1106,17 @@ p {
 }
 
 #circle-outline-fortuna    /* круг с обводкой */ {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   border-radius: 50%;
   border: 1.5px solid #fdfefd;
   opacity: 60%;
-  margin-right: 30px;
+  margin-right: 1.775vw;
 }
 
 #circle-outline-fortuna-1    /* круг с обводкой */ {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   border-radius: 50%;
   border: 1.5px solid #fdfefd;
   opacity: 60%;
@@ -1161,14 +1165,14 @@ p {
 #jackpot-group {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.592vw;
   align-items: center;
 }
 
 #bankrupt-group {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.592vw;
   align-items: center;
 }
 
@@ -1213,7 +1217,7 @@ p {
 .notification-clock-title {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 0.592vw;
   margin-bottom: 1.18vw;
 }
 
@@ -1227,8 +1231,8 @@ p {
 }
 
 #time-passed-text {
-  margin-left: 29px;
-  width: 550px;
+  margin-left: 1.716vw;
+  width: 32.544vw;
 }
 
 #close-notification-clock {
@@ -1279,64 +1283,64 @@ p {
 
 #number2 {
   position: absolute;
-  font-size: 90px;
+  font-size: 5.325vw;
   color: #101010;
-  top: 220px;
+  top: 13.02vw;
   letter-spacing: 8px;
 }
 
 #number3 {
   position: absolute;
-  font-size: 90px;
+  font-size: 5.325vw;
   color: #101010;
-  left: -220px;
+  left: -13.02vw;
   letter-spacing: 8px;
 }
 
 #number4 {
   position: absolute;
-  font-size: 90px;
+  font-size: 5.325vw;
   color: #101010;
-  left: 220px;
+  left: 13.02vw;
   letter-spacing: 8px;
 }
 
 .numbers {
   position: relative;
-  margin-left: 243px;
-  margin-top: 110px;
+  margin-left: 14.379vw;
+  margin-top: 6.509vw;
 }
 
 .section-10-qr-code {
   position: relative;
   margin-left: 75.4vw;
-  margin-top: -3.7vw;
+  margin-top: -3.3vw;
 }
 
 #qr-code-bg {
   height: 50vw;
-  margin-left: -15px;
-  margin-top: -5px;
+  margin-left: -0.887vw;
+  margin-top: -0.296vw;
 }
 
 #broken-img-qr-code {
-  margin-left: -10px;
+  margin-left: -0.592vw;
 }
 
 .elements-qr-code {
-  margin-top: -800px;
-  margin-left: 340px;
+  margin-top: -47.337vw;
+  margin-left: 20.118vw;
 }
 
 #arrow-qr-1 {
   transform: rotate(135deg);
-  margin-left: -380px;
-  margin-top: 220px;
+  margin-left: -22.485vw;
+  margin-top: 13.02vw;
 }
 
 #arrow-qr-line-1 {
   width: 1.5px;
-  height: 15px;
+  height: 0.888vw;
   background-color: #101010;
   transform: rotate(90deg);
 }
@@ -1344,69 +1348,69 @@ p {
 #arrow-qr-line-2 {
   position: relative;
   width: 1.5px;
-  height: 15px;
+  height: 0.888vw;
   background-color: #101010;
-  margin-top: -8px;
-  margin-left: 7px;
+  margin-top: -0.473vw;
+  margin-left: 0.414vw;
 }
 
 #arrow-qr-line-3 {
-  width: 1.5px;
+  width: 0.089vw;
   height: 2.96vw;
   background-color: #101010;
   transform: rotate(45deg);
-  margin-top: -21px;
-  margin-left: -11px;
+  margin-top: -1.243vw;
+  margin-left: -0.65vw;
 }
 
 #arrow-qr-2 {
-  margin-left: -15px;
-  margin-top: -60px;
+  margin-left: -0.888vw;
+  margin-top: -3.55vw;
 }
 
 #arrow-qr-line-21 {
-  width: 1.5px;
-  height: 15px;
+  width: 0.089vw;
+  height: 0.888vw;
   background-color: #101010;
   transform: rotate(90deg);
 }
 
 #arrow-qr-line-22 {
   position: relative;
-  width: 1.5px;
-  height: 15px;
+  width: 0.089vw;
+  height: 0.888vw;
   background-color: #101010;
-  margin-top: -8px;
-  margin-left: 7px;
+  margin-top: -0.473vw;
+  margin-left: 0.414vw;
 }
 
 #arrow-qr-line-23 {
-  width: 1.5px;
+  width: 0.089vw;
   height: 2.96vw;
   background-color: #101010;
   transform: rotate(45deg);
-  margin-top: -21px;
-  margin-left: -11px;
+  margin-top: -1.243vw;
+  margin-left: -0.65vw;
 }
 
 #qr {
   position: absolute;
-  top: 195px;
-  left: 300px;
-  width: 48px;
+  top: 11.538vw;
+  left: 17.75vw;
+  width: 2.84vw;
 }
 
 #broken-img-qr {
   position: absolute;
-  top: 747px;
-  left: 260px;
+  top: 44.2vw;
+  left: 15.385vw;
 }
 
 .elements-qr-group {
   display: flex;
   flex-direction: row;
-  margin-top: 15px;
-  margin-left: -43px;
+  margin-top: 0.888vw;
+  margin-left: -2.544vw;
 }
 
 #scheme-qr {
@@ -1417,63 +1421,63 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1.12vw;
-  margin-left: -10px;
+  margin-left: -0.592vw;
 }
 
 #circle-qr-1 {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   background-color: #101010;
   border-radius: 50%;
   border: 1.5px solid #101010;
 }
 
 #circle-qr-2 {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   border-radius: 50%;
   border: 1.5px solid #101010;
 }
 
 #circle-qr-3 {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   border-radius: 50%;
   border: 1.5px solid #101010;
 }
 
 #circle-qr-4 {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   border-radius: 50%;
   border: 1.5px solid #101010;
 }
 
 #circle-qr-5 {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   border-radius: 50%;
   border: 1.5px solid #101010;
 }
 
 #circle-qr-6 {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   border-radius: 50%;
   border: 1.5px solid #101010;
 }
 
 #circle-qr-7 {
-  width: 22px;
-  height: 22px;
+  width: 1.302vw;
+  height: 1.302vw;
   border-radius: 50%;
   border: 1.5px solid #101010;
 }
 
 .section-11-footer {
   position: relative;
-  margin-top: -120px;
-  margin-left: -15px;
+  margin-top: -7.1vw;
+  margin-left: -0.888vw;
 }
 
 #footer-bg {
@@ -1481,18 +1485,18 @@ p {
 }
 
 .elements-on-footer {
-  margin-top: -160px;
-  margin-right: 283px;
+  margin-top: -9.467vw;
+  margin-right: 16.746vw;
   display: flex;
   flex-direction: row-reverse;
-  gap: 450px;
+  gap: 26.627vw;
   align-items: flex-end;
 }
 
 .created-by {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 0.059vw;
   opacity: 30%;
 }
 
@@ -1502,8 +1506,8 @@ p {
 
 .lucky-ticket-elements {
   position: absolute;
-  left: 9px;
-  top: 9px;
+  left: 0.533vw;
+  top: 0.533vw;
 }
 
 .error {
@@ -1515,123 +1519,123 @@ p {
 }
 
 #error1 {
-  top: 24px;
-  left: 544px;
+  top: 1.42vw;
+  left: 32.189vw;
 }
 
 #error2 {
-  top: 24px;
-  left: 736px;
+  top: 1.42vw;
+  left: 43.55vw;
 }
 
 #error3 {
-  top: 126px;
-  left: 352px;
+  top: 7.456vw;
+  left: 20.828vw;
 }
 
 #error4 {
-  top: 126px;
-  left: 448px;
+  top: 7.456vw;
+  left: 26.5vw;
 }
 
 #error5 {
-  top: 126px;
-  left: 640px;
+  top: 7.456vw;
+  left: 37.87vw;
 }
 
 #error6 {
-  top: 126px;
-  left: 736px;
+  top: 7.456vw;
+  left: 43.55vw;
 }
 
 #error7 {
-  top: 223px;
-  left: 352px;
+  top: 13.195vw;
+  left: 20.828vw;
 }
 
 #error8 {
-  top: 223px;
-  left: 544px;
+  top: 13.195vw;
+  left: 32.189vw;
 }
 
 #error9 {
-  top: 223px;
-  left: 640px;
+  top: 13.195vw;
+  left: 37.87vw;
 }
 
 #error10 {
-  top: 320px;
-  left: 352px;
+  top: 18.935vw;
+  left: 20.828vw;
 }
 
 #error11 {
-  top: 320px;
-  left: 445px;
+  top: 18.935vw;
+  left: 26.33vw;
 }
 
 #error12 {
-  top: 320px;
-  left: 736px;
+  top: 18.935vw;
+  left: 43.55vw;
 }
 
 #error13 {
-  top: 418px;
-  left: 352px;
+  top: 24.734vw;
+  left: 20.828vw;
 }
 
 #error14 {
-  top: 418px;
-  left: 448px;
+  top: 24.734vw;
+  left: 26.5vw;
 }
 
 #error15 {
-  top: 418px;
-  left: 544px;
+  top: 24.734vw;
+  left: 32.189vw;
 }
 
 #error16 {
-  top: 418px;
-  left: 640px;
+  top: 24.734vw;
+  left: 37.87vw;
 }
 
 #error17 {
-  top: 418px;
-  left: 736px;
+  top: 24.734vw;
+  left: 43.55vw;
 }
 
 #error18 {
-  top: 516px;
-  left: 448px;
+  top: 30.53vw;
+  left: 26.5vw;
 }
 
 #error19 {
-  top: 516px;
-  left: 544px;
+  top: 30.53vw;
+  left: 32.189vw;
 }
 
 #error20 {
-  top: 516px;
-  left: 640px;
+  top: 30.53vw;
+  left: 37.87vw;
 }
 
 #error21 {
-  top: 516px;
-  left: 736px;
+  top: 30.533vw;
+  left: 43.55vw;
 }
 
 #error22 {
-  top: 615px;
-  left: 352px;
+  top: 36.39vw;
+  left: 20.828vw;
 }
 
 #error23 {
-  top: 615px;
-  left: 448px;
+  top: 36.39vw;
+  left: 26.5vw;
 }
 
 #error24 {
-  top: 615px;
-  left: 544px;
+  top: 36.39vw;
+  left: 32.189vw;
 }
 
 .zero {
@@ -1643,33 +1647,33 @@ p {
 }
 
 #zero1 {
-  top: 24px;
-  left: 352px;
+  top: 1.42vw;
+  left: 20.828vw;
 }
 
 #zero2 {
-  top: 24px;
-  left: 448px;
+  top: 1.42vw;
+  left: 26.5vw;
 }
 
 #zero3 {
-  top: 126px;
-  left: 544px;
+  top: 7.456vw;
+  left: 32.189vw;
 }
 
 #zero4 {
-  top: 320px;
-  left: 640px;
+  top: 18.935vw;
+  left: 37.87vw;
 }
 
 #zero5 {
-  top: 516px;
-  left: 352px;
+  top: 30.53vw;
+  left: 20.828vw;
 }
 
 #zero6 {
-  top: 615px;
-  left: 640px;
+  top: 36.39vw;
+  left: 37.87vw;
 }
 
 .four {
@@ -1681,26 +1685,30 @@ p {
 }
 
 #four1 {
-  top: 24px;
-  left: 640px;
+  top: 1.42vw;
+  left: 37.87vw;
 }
 
 #four2 {
-  top: 223px;
-  left: 448px;
+  top: 13.195vw;
+  left: 26.5vw;
 }
 
 #four3 {
-  top: 223px;
-  left: 736px;
+  top: 13.195vw;
+  left: 43.55vw;
 }
 
 #four4 {
-  top: 320px;
-  left: 544px;
+  top: 18.935vw;
+  left: 32.189vw;
 }
 
 #four5 {
-  top: 615px;
-  left: 736px;
+  top: 36.39vw;
+  left: 43.55vw;
+}
+
+#sliding-text-schemes {
+  width: 20.8vw;
 }

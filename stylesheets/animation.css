@@ -222,7 +222,9 @@
   border-right: 2px solid #454545;
   white-space: nowrap;
   margin: 0 auto;
-  animation: typing 5.5s steps(40) infinite, blink-caret 0.75s step-end infinite;
+  animation:
+    typing 5.5s steps(40) infinite,
+    blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -390,7 +392,8 @@
 .running-line-text {
   content: url(../img/running-line-text-1.svg);
   width: 200vw;
-  animation: scroll 10s linear infinite,
+  animation:
+    scroll 10s linear infinite,
     change-letters 0.3s steps(1, end) infinite;
 }
 

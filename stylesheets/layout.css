@@ -10,7 +10,8 @@ body {
   font-family: "TTNeoris";
   overflow-x: hidden;
   overflow-y: hidden;
-  height: 261.8vw;
+  /* height: 261.8vw; */
+  height: auto;
 }
 
 /* свечение */
@@ -36,6 +37,36 @@ body {
 }
 
 #bg-lightning-2 {
+  margin-top: 265.6vw;
+  margin-left: 0px;
+  position: absolute;
+  font-size: 218vw;
+  font-weight: 300;
+  color: #b6cad3;
+  filter: blur(200px);
+}
+#bg-lightning-3 {
+  visibility: hidden;
+  margin-top: 265.6vw;
+  margin-left: 0px;
+  position: absolute;
+  font-size: 218vw;
+  font-weight: 300;
+  color: #b6cad3;
+  filter: blur(200px);
+}
+#bg-lightning-4 {
+  visibility: hidden;
+  margin-top: 265.6vw;
+  margin-left: 0px;
+  position: absolute;
+  font-size: 218vw;
+  font-weight: 300;
+  color: #b6cad3;
+  filter: blur(200px);
+}
+#bg-lightning-5 {
+  visibility: hidden;
   margin-top: 265.6vw;
   margin-left: 0px;
   position: absolute;
@@ -94,7 +125,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.96vw;
+  gap: 4vw;
 }
 
 /* элементы блока */
@@ -108,7 +139,7 @@ p {
   left: 32vw;
 }
 
-#line-2 {
+#line-2-1 {
   position: relative;
   top: 30vw;
   left: 2.96vw;
@@ -117,6 +148,24 @@ p {
   border-top: 2px dashed #101010;
   opacity: 30%;
   gap: 0.53vw;
+}
+
+#line-2-2 {
+  position: absolute;
+  visibility: hidden;
+  width: 62vw;
+  height: 0px;
+  border-top: 2px dashed #101010;
+  opacity: 30%;
+}
+
+#line-2-3 {
+  position: absolute;
+  visibility: hidden;
+  width: 62vw;
+  height: 0px;
+  border-top: 2px dashed #101010;
+  opacity: 30%;
 }
 
 #line-3 {
@@ -132,16 +181,17 @@ p {
 /* Описание организации */
 
 /* параметры дива */
-.transparent-rectangle {
+/* .transparent-rectangle {
   width: 100vw;
   height: 2.96vw;
   background-color: #fdfefd;
-}
+} */
 
 .organization {
   position: relative;
   margin-left: 2.96vw;
   max-width: 29vw;
+  padding-top: 2.96vw;
 }
 
 /* элементы */
@@ -916,12 +966,19 @@ p {
 }
 
 .section6-lucky-ticket {
+  background-repeat: no-repeat;
   position: relative;
   margin-left: 46.154vw;
   margin-top: -28.4vw;
   display: flex;
   flex-direction: row;
+}
+
+#lucky-ticket {
+  background-image: url(../img/lucky-ticket.svg);
+  height: 100vw;
   width: 36vw;
+  background-size: 100% 100%;
 }
 
 #lucky-ticket {
@@ -1491,6 +1548,7 @@ p {
   flex-direction: row-reverse;
   gap: 26.627vw;
   align-items: flex-end;
+  padding-bottom: 2.96vw;
 }
 
 .created-by {
@@ -1506,209 +1564,45 @@ p {
 
 .lucky-ticket-elements {
   position: absolute;
-  left: 0.533vw;
-  top: 0.533vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8vw;
+  top: 2.3vw;
+  left: 21.4vw;
+}
+
+.fort-elements {
+  display: flex;
+  flex-direction: row;
+  gap: 2.7vw;
 }
 
 .error {
   background-image: url(../img/lucky-ticket-error.svg);
-  position: absolute;
   height: 3vw;
   width: 3vw;
   background-size: 100% 100%;
 }
 
-#error1 {
-  top: 1.42vw;
-  left: 32.189vw;
-}
-
-#error2 {
-  top: 1.42vw;
-  left: 43.55vw;
-}
-
-#error3 {
-  top: 7.456vw;
-  left: 20.828vw;
-}
-
-#error4 {
-  top: 7.456vw;
-  left: 26.5vw;
-}
-
-#error5 {
-  top: 7.456vw;
-  left: 37.87vw;
-}
-
-#error6 {
-  top: 7.456vw;
-  left: 43.55vw;
-}
-
-#error7 {
-  top: 13.195vw;
-  left: 20.828vw;
-}
-
-#error8 {
-  top: 13.195vw;
-  left: 32.189vw;
-}
-
-#error9 {
-  top: 13.195vw;
-  left: 37.87vw;
-}
-
-#error10 {
-  top: 18.935vw;
-  left: 20.828vw;
-}
-
-#error11 {
-  top: 18.935vw;
-  left: 26.33vw;
-}
-
-#error12 {
-  top: 18.935vw;
-  left: 43.55vw;
-}
-
-#error13 {
-  top: 24.734vw;
-  left: 20.828vw;
-}
-
-#error14 {
-  top: 24.734vw;
-  left: 26.5vw;
-}
-
-#error15 {
-  top: 24.734vw;
-  left: 32.189vw;
-}
-
-#error16 {
-  top: 24.734vw;
-  left: 37.87vw;
-}
-
-#error17 {
-  top: 24.734vw;
-  left: 43.55vw;
-}
-
-#error18 {
-  top: 30.53vw;
-  left: 26.5vw;
-}
-
-#error19 {
-  top: 30.53vw;
-  left: 32.189vw;
-}
-
-#error20 {
-  top: 30.53vw;
-  left: 37.87vw;
-}
-
-#error21 {
-  top: 30.533vw;
-  left: 43.55vw;
-}
-
-#error22 {
-  top: 36.39vw;
-  left: 20.828vw;
-}
-
-#error23 {
-  top: 36.39vw;
-  left: 26.5vw;
-}
-
-#error24 {
-  top: 36.39vw;
-  left: 32.189vw;
-}
-
 .zero {
-  position: absolute;
   background-image: url(../img/0.svg);
   width: 3vw;
   height: 3vw;
   background-size: 100% 100%;
 }
 
-#zero1 {
-  top: 1.42vw;
-  left: 20.828vw;
-}
-
-#zero2 {
-  top: 1.42vw;
-  left: 26.5vw;
-}
-
-#zero3 {
-  top: 7.456vw;
-  left: 32.189vw;
-}
-
-#zero4 {
-  top: 18.935vw;
-  left: 37.87vw;
-}
-
-#zero5 {
-  top: 30.53vw;
-  left: 20.828vw;
-}
-
-#zero6 {
-  top: 36.39vw;
-  left: 37.87vw;
-}
-
 .four {
-  position: absolute;
   background-image: url(../img/4.svg);
   width: 3vw;
   height: 3vw;
   background-size: 100% 100%;
 }
 
-#four1 {
-  top: 1.42vw;
-  left: 37.87vw;
-}
-
-#four2 {
-  top: 13.195vw;
-  left: 26.5vw;
-}
-
-#four3 {
-  top: 13.195vw;
-  left: 43.55vw;
-}
-
-#four4 {
-  top: 18.935vw;
-  left: 32.189vw;
-}
-
-#four5 {
-  top: 36.39vw;
-  left: 43.55vw;
-}
-
 #sliding-text-schemes {
   width: 20.8vw;
+}
+
+#footer-rectangle {
+  position: absolute;
+  visibility: hidden;
 }

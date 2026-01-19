@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -11,16 +12,20 @@
     <span id="bg-lightning">X</span>
     <span id="bg-lightning-1">X</span>
     <span id="bg-lightning-2">X</span>
+    <span id="bg-lightning-3">X</span>
+    <span id="bg-lightning-4">X</span>
+    <span id="bg-lightning-5">X</span>
     <!-- Секция 1 — главный блок информации -->
     <section class="main-block">
     
       <div id="line-1"></div>    <!--вертикальная линия-->
-      <div id="line-2"></div>    <!--вертикальная линия-->
+      <div class="line-2" id="line-2-1"></div>    <!--вертикальная линия-->
+      <div class="line-2" id="line-2-2"></div>    <!--вертикальная линия-->
+      <div class="line-2" id="line-2-3"></div>    <!--вертикальная линия-->
       <div id="line-3"></div>    <!--горизонтальная линия-->
   <div class="gap">
         <!-- Описание организации -->
       <div class="organization">
-        <div class="transparent-rectangle"></div>
         <h3 id="casino-for-robots">Казино для роботов «Слоты и болты»</h3>
         <p id="organization-sab">
           Организация «Слоты и болты» не соблюдает правовые нормы, касающиеся:
@@ -94,7 +99,7 @@
  <div class="access-code">
   <div class="access-code-and-errors">
   <h3 id="access-code">Код доступа</h3>
-    <div class="access-code-error"></div>
+  <div class="access-code-error"></div>
   </div>
     <div id="access-code-text"></div>
     <p id="if-dont-have-legs">Нет ног, чтобы прийти к нам? Не проблема!
@@ -132,25 +137,25 @@
         <div class="spam-1">
             <img id="folder" src="img\Folder.svg" alt="">
           <div id="spam-1-text"></div>
-          <div id="line-7"></div>
+          <!-- <div id="line-7"></div> -->
           <!-- <img id="polygon-1" src="img\polygon.svg" alt=""> -->
         </div>
         <div class="spam-2">
             <img id="folder" src="img\Folder.svg" alt="">
           <div id="spam-2-text"></div>
-          <div id="line-8"></div>
+          <!-- <div id="line-8"></div> -->
           <!-- <img id="polygon-2" src="img\polygon.svg" alt=""> -->
         </div>
         <div class="spam-3">
             <img id="folder" src="img\Folder.svg" alt="">
           <div id="spam-3-text"></div>
-          <div id="line-9"></div>
+          <!-- <div id="line-9"></div> -->
           <!-- <img id="polygon-3" src="img\polygon.svg" alt=""> -->
         </div>
         <div class="spam-4">
             <img id="folder" src="img\Folder.svg" alt="">
           <div id="spam-4-text"></div>
-          <div id="line-10"></div>
+          <!-- <div id="line-10"></div> -->
           <!-- <img id="polygon-4" src="img\polygon.svg" alt=""> -->
         </div>
       </div>
@@ -223,46 +228,61 @@
    <section class="section6-lucky-ticket">
     <div class="circles-lottery"></div>
     <img id="arrow-lucky" src="img\arrow-lucky.svg" alt="">
-    <img id="lucky-ticket" src="img\lucky-ticket.svg" alt=""></img>
+    <div id="lucky-ticket"></div>
     <div class="lucky-ticket-elements">
+    <div class="fort-elements" id="elements1">
      <div class="zero" id="zero1"></div>
      <div class="zero" id="zero2"></div>
-     <div class="zero" id="zero3"></div>
-     <div class="zero" id="zero4"></div>
-     <div class="zero" id="zero5"></div>
-     <div class="zero" id="zero6"></div>
-     <div class="four" id="four1"></div>
-     <div class="four" id="four2"></div>
-     <div class="four" id="four3"></div>
-     <div class="four" id="four4"></div>
-     <div class="four" id="four5"></div>
      <div class="error" id="error1"></div>
+     <div class="four" id="four1"></div>
      <div class="error" id="error2"></div>
+    </div>
+    <div class="fort-elements" id="elements2">
      <div class="error" id="error3"></div>
      <div class="error" id="error4"></div>
+     <div class="zero" id="zero3"></div>
      <div class="error" id="error5"></div>
      <div class="error" id="error6"></div>
+    </div>
+    <div class="fort-elements" id="elements3">
      <div class="error" id="error7"></div>
+     <div class="four" id="four2"></div>
      <div class="error" id="error8"></div>
      <div class="error" id="error9"></div>
+     <div class="four" id="four3"></div>
+    </div> 
+    <div class="fort-elements" id="elements4">
      <div class="error" id="error10"></div>
      <div class="error" id="error11"></div>
+     <div class="four" id="four4"></div>
+     <div class="zero" id="zero4"></div>
      <div class="error" id="error12"></div>
+    </div>
+    <div class="fort-elements" id="elements5">
      <div class="error" id="error13"></div>
      <div class="error" id="error14"></div>
      <div class="error" id="error15"></div>
      <div class="error" id="error16"></div>
      <div class="error" id="error17"></div>
+    </div>
+    <div class="fort-elements" id="elements6">
+     <div class="zero" id="zero5"></div> 
      <div class="error" id="error18"></div>
      <div class="error" id="error19"></div>
      <div class="error" id="error20"></div>
      <div class="error" id="error21"></div>
+    </div>
+    <div class="fort-elements" id="elements7">
      <div class="error" id="error22"></div>
      <div class="error" id="error23"></div>
      <div class="error" id="error24"></div>
+     <div class="zero" id="zero6"></div>
+     <div class="four" id="four5"></div>
+    </div>
     </div>
    </section>
 
+   <!-- локация -->
    <section class="section7-location">
     <img id="location-bg" src="img\section-location-bg.svg" alt=""></img>
     <div id="coordinates"></div>
@@ -290,6 +310,7 @@
   <img id="bolts" src="img\bolts.svg" alt="">
    </section>
 
+   <!-- колесо фортуны -->
    <section class="section-8-fortuna">
     <img id="fortuna-bg" src="img\fortuna-bg.svg" alt="">
     <div class="fortuna-group">
@@ -314,6 +335,7 @@
     </div>
    </section>
 
+   <!-- часы -->
    <section class="section-10-clock">
     <img id="clock" src="img\clock.svg" alt="">
     <div class="arrows-clock">
@@ -346,6 +368,7 @@
     <img id="notification-scheme-clock" src="img\notification-scheme-clock.svg" alt="">
   </section>
 
+  <!-- кр код -->
   <section class="section-10-qr-code">
     <img id="qr-code-bg" src="img\qr-code-bg.svg" alt="">
     <div class="elements-qr-code">
@@ -379,8 +402,10 @@
     </div>
   </section>
    
+  <!-- футер -->
   <section class="section-11-footer">
     <img id="footer-bg" src="img\footer-bg.svg" alt="">
+    <div id="footer-rectangle"></div>
     <div class="elements-on-footer">
      <img id="schemes-footer" src="img\schemes-footer.svg" alt="">
      <div class="created-by">

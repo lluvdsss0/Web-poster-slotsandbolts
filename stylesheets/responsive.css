@@ -1,0 +1,760 @@
+/* стили для планшетов  */
+@media (max-width: 768px) {
+  /* основные параметры */
+  .body {
+    height: auto;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+  }
+  #bg-lightning {
+    top: 200vw;
+    filter: blur(120px);
+  }
+  #bg-lightning-1 {
+    top: 300vw;
+    filter: blur(120px);
+  }
+  #bg-lightning-2 {
+    top: 400vw;
+    filter: blur(120px);
+  }
+  #bg-lightning-3 {
+    visibility: visible;
+    top: 500vw;
+    filter: blur(120px);
+  }
+  #bg-lightning-4 {
+    visibility: visible;
+    top: 600vw;
+    filter: blur(120px);
+  }
+  #bg-lightning-5 {
+    visibility: visible;
+    top: 700vw;
+    filter: blur(120px);
+  }
+  .gap {
+    display: grid;
+  }
+  h3 {
+    font-size: 3.5vw;
+  }
+  p {
+    font-size: 3.8vw;
+  }
+
+  /* главный блок */
+  .main-block {
+    background-image: none;
+    background-color: #fdfefd;
+  }
+
+  /* описание организации */
+  .organization {
+    max-width: 100vw;
+    padding-top: 5vw;
+    margin-left: 5vw;
+  }
+  #main-circles {
+    width: 13.3vw;
+    height: 18.91vw;
+    margin-left: -5vw;
+    margin-top: 10vw;
+  }
+
+  #casino-for-robots {
+    animation:
+      typing 25.5s steps(90) infinite,
+      blink-caret 0.75s step-end infinite;
+  }
+  #organization-sab {
+    padding-top: 5vw;
+    max-width: 80vw;
+  }
+
+  /* разделяющие линии */
+  #line-1 {
+    visibility: hidden;
+  }
+  #line-2-1 {
+    top: 75vw;
+    left: 0vw;
+    width: 100vw;
+  }
+  #line-2-2 {
+    visibility: visible;
+    top: 124vw;
+    left: 0vw;
+    width: 100vw;
+  }
+  #line-2-3 {
+    visibility: visible;
+    top: 271.5vw;
+    left: 0vw;
+    width: 100vw;
+  }
+  #line-3 {
+    visibility: hidden;
+  }
+
+  /* преимущества организации */
+  .options {
+    margin-left: 5vw;
+    margin-top: 9vw;
+    width: 100vw !important;
+  }
+  #time::after {
+    font-size: 3.5vw !important;
+  }
+  .decorations {
+    visibility: hidden;
+  }
+  #rectangle-1 {
+    width: 1vw;
+    height: 2vw;
+  }
+  #rectangle-2 {
+    width: 1vw;
+    height: 2vw;
+  }
+  .rectangles12 {
+    gap: 0.7vw;
+  }
+  #rectangle-3 {
+    width: 1vw;
+    height: 2.5vw;
+  }
+  #rectangle-4 {
+    width: 1vw;
+    height: 2.5vw;
+  }
+  .rectangles34 {
+    gap: 0.7vw;
+  }
+  .big-wins-and-rectangles {
+    margin-top: -0.5vw;
+  }
+  #rectangle-5 {
+    width: 1vw;
+    height: 2.5vw;
+  }
+  #rectangle-6 {
+    width: 1vw;
+    height: 2.5vw;
+  }
+  .rectangles56 {
+    gap: 0.7vw;
+  }
+  .improvement-and-rectangles {
+    margin-top: -0.5vw;
+  }
+  #rectangle-7 {
+    width: 1vw;
+    height: 2vw;
+  }
+  #rectangle-8 {
+    width: 1vw;
+    height: 2vw;
+  }
+  .rectangles78 {
+    gap: 0.7vw;
+  }
+  .broken-text-and-rectangle {
+    margin-left: 5.5vw;
+  }
+  .options-text {
+    margin-top: 9vw;
+    max-width: 80vw !important;
+    gap: 10vw !important;
+  }
+
+  /* код доступа в казино */
+  .access-code {
+    margin-left: 5vw;
+    margin-top: 5vw;
+    width: 100vw;
+  }
+  #access-code-text::after {
+    font-size: 11.87vw !important;
+  }
+  #access-code-text {
+    margin-top: 12vw;
+  }
+  .access-code-error {
+    width: 17.38vw;
+    height: 3.3vw;
+  }
+  .access-code-and-errors {
+    gap: 53.2vw;
+  }
+  #if-dont-have-legs {
+    width: 89vw;
+    margin-top: 6vw;
+  }
+  #scheme-2 {
+    width: 90vw;
+    margin-top: 11vw;
+  }
+  #metallic-texture {
+    width: 90vw;
+  }
+  #pill-1 {
+    height: 2.7vw;
+    width: 17vw;
+  }
+  #pill-2 {
+    height: 2.7vw;
+    width: 12vw;
+  }
+  #pill-3 {
+    height: 2.7vw;
+    width: 5vw;
+  }
+  #pill-4 {
+    height: 2.7vw;
+    width: 60vw;
+    margin-left: 10vw;
+  }
+  .pills-access {
+    margin-top: 8vw;
+    width: 90vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  .conditions-text {
+    margin-top: 8vw;
+    gap: 9.12vw;
+  }
+
+  #schemes {
+    visibility: hidden;
+  }
+
+  /* папки со спамом */
+  .spam-folders {
+    margin-left: 5vw;
+    margin-top: -2vw;
+    width: 100vw;
+    gap: 3vw;
+    padding-bottom: 9vw;
+  }
+  #scheme-3 {
+    width: 90vw;
+    height: 20vw;
+    margin-top: -5vw;
+  }
+  #spam-1-text::after {
+    font-size: 3vw !important;
+  }
+  #spam-2-text::after {
+    font-size: 3vw !important;
+  }
+  #spam-3-text::after {
+    font-size: 3vw !important;
+  }
+  #spam-4-text::after {
+    font-size: 3vw !important;
+  }
+  #folder {
+    width: 3.6vw;
+  }
+  #broken-img {
+    position: absolute;
+    top: -4vw;
+    left: 88vw;
+    width: 2.5vw;
+  }
+
+  /* тревожное всплывающее окно */
+  .section2-anxious-notification {
+    margin-top: 10vw;
+    margin-left: 2vw;
+  }
+  #warning-text {
+    width: 70vw;
+    margin-top: 3vw;
+    margin-left: 7vw;
+  }
+  #notification-bg-rectangle {
+    width: 90vw;
+    height: 28vw;
+    border-radius: 3vw;
+  }
+  #close-notification {
+    width: 4vw;
+  }
+  .elements-on-rectangle {
+    margin-top: -23.5vw;
+    margin-left: 7vw;
+  }
+  .notification-title {
+    gap: 3vw;
+  }
+  #notification-scheme {
+    visibility: hidden;
+  }
+
+  /* бегущая линия */
+  #running-line {
+    height: 46vw;
+  }
+  .running-line-text {
+    width: 600vw !important;
+    margin-top: -71vw;
+  }
+  .section3-running-line {
+    margin-top: 15vw;
+  }
+
+  /* счастливый билет */
+  .circles-lottery {
+    position: absolute;
+    visibility: hidden;
+  }
+  #lucky-ticket {
+    width: 90vw;
+    height: 280vw;
+    margin-left: -13vw;
+  }
+  .section6-lucky-ticket {
+    width: 120vw;
+    margin-left: 5vw;
+    margin-top: -274vw;
+  }
+  #arrow-lucky {
+    width: 9vw;
+  }
+  .lucky-ticket-elements {
+    margin-top: 90vw;
+  }
+  .zero {
+    width: 9vw;
+    height: 9vw;
+  }
+  .four {
+    width: 9vw;
+    height: 9vw;
+  }
+  .error {
+    width: 9vw;
+    height: 9vw;
+  }
+  .lucky-ticket-elements {
+    gap: 5.65vw;
+    left: 17.82vw;
+    top: 1.6vw;
+  }
+  .fort-elements {
+    gap: 5.35vw;
+  }
+  /* регулирование */
+  .section-4-regulate {
+    margin-top: 120vw;
+  }
+  #section-4-bg {
+    width: 57vw;
+  }
+  #scheme-regulate {
+    height: 155vw;
+    margin-top: 10vw;
+    margin-left: 2vw;
+  }
+  #broken-img-regulate {
+    width: 2.5vw;
+    top: 15vw;
+    left: 5vw;
+  }
+  .decor-1 {
+    margin-top: 15vw;
+    margin-left: 2vw;
+  }
+  #circle-plus-reg {
+    width: 4vw;
+  }
+  #circle-strikethrough-reg {
+    width: 3.7vw;
+    margin-top: 1vw;
+  }
+  #error-outline-reg-1 {
+    margin-top: 38vw;
+    width: 3.7vw !important;
+    height: 3.7vw !important;
+  }
+  #error-outline-reg-2 {
+    width: 3.7vw !important;
+    height: 3.7vw !important;
+  }
+  #error-outline-reg-3 {
+    width: 3.7vw !important;
+    height: 3.7vw !important;
+  }
+  #pill-reg-1 {
+    width: 2.7vw;
+    height: 7vw;
+  }
+  #pill-reg-2 {
+    width: 2.7vw;
+    height: 5vw;
+  }
+  #pill-reg-3 {
+    width: 2.7vw;
+    height: 3vw;
+  }
+  #pill-reg-4 {
+    width: 2.7vw;
+    height: 35.5vw;
+  }
+  .decor-2 {
+    gap: 1.3vw;
+  }
+  .decor-group {
+    margin-left: 5.5vw;
+    margin-top: 67vw;
+  }
+  #decor-3 {
+    width: 2.5vw;
+    margin-left: 1.5vw;
+  }
+  #circle-fill-reg {
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+    animation: circleMovement1 7s infinite !important;
+  }
+  @keyframes circleMovement1 {
+    0% {
+      top: 21vw;
+      left: 3.7vw;
+    }
+    25% {
+      top: 33vw;
+      left: 13.7vw;
+    }
+    50% {
+      top: 112.3vw;
+      left: 13.7vw;
+    }
+    75% {
+      top: 116vw;
+      left: 3.7vw;
+    }
+    100% {
+      top: 174vw;
+      left: 3.7vw;
+    }
+  }
+
+  /* выдвигающийся текст */
+  .section5-sliding-text {
+    margin-top: -60vw;
+    margin-left: 20vw;
+  }
+  #sliding-text-schemes {
+    width: 40vw;
+  }
+  .rectangles910 {
+    margin-top: -3vw;
+    margin-left: 12.7vw;
+    gap: 0.7vw;
+  }
+  #rectangle-9 {
+    width: 3vw;
+    height: 0.8vw;
+  }
+  #rectangle-10 {
+    width: 3vw;
+    height: 0.8vw;
+  }
+  #imagine {
+    width: 43vw;
+    font-size: 3vw;
+    margin-left: 13vw;
+    margin-top: 0vw;
+  }
+
+  /* локация */
+  .section7-location {
+    margin-top: 120vw;
+    margin-left: 14vw;
+  }
+  #location-bg {
+    width: 90vw;
+    height: 130vw;
+  }
+  #coordinates::after {
+    font-size: 5.68vw !important;
+  }
+  #coordinates {
+    margin-left: 22vw;
+    margin-top: -124vw;
+  }
+  #theclosest-point {
+    margin-left: 22vw;
+    margin-top: 2vw;
+  }
+  #white-circle-plus {
+    width: 4vw;
+    margin-top: 15.5vw;
+    margin-left: 46vw;
+  }
+  #line-coordinates-1 {
+    position: absolute;
+    width: 82vw;
+    left: 8vw;
+    top: 31vw;
+  }
+  #line-coordinates-2 {
+    position: absolute;
+    width: 82vw;
+    left: 8vw;
+    top: 61vw;
+  }
+  #line-coordinates-3 {
+    position: absolute;
+    height: 48vw;
+    left: 60vw;
+    top: 33vw;
+  }
+  .rectangles-group {
+    margin-top: 7vw;
+  }
+  #scheme-location {
+    position: absolute;
+    top: 38vw;
+    left: 69vw;
+    width: 8.9vw;
+  }
+  #rectangle-11 {
+    width: 1vw;
+    height: 1vw;
+  }
+  #rectangle-12 {
+    width: 1vw;
+    height: 1vw;
+  }
+  .rectangles1112 {
+    gap: 0.7vw;
+  }
+  #rectangle-13 {
+    width: 1vw;
+    height: 2vw;
+  }
+  #rectangle-14 {
+    width: 1vw;
+    height: 2vw;
+  }
+  .rectangles1314 {
+    gap: 0.7vw;
+  }
+  #rectangle-15 {
+    width: 1vw;
+    height: 1vw;
+  }
+  #rectangle-16 {
+    width: 1vw;
+    height: 1vw;
+  }
+  .rectangles1516 {
+    gap: 0.7vw;
+  }
+  .rectangles-group {
+    margin-left: 20vw;
+    gap: 10vw;
+  }
+  #loading {
+    margin-top: 10vw;
+    width: 20vw !important;
+    height: 20vw !important;
+    margin-left: 23vw;
+  }
+  #bolts {
+    width: 80vw;
+    margin-left: 7vw;
+  }
+
+  /* колесо фортуны */
+  .section-8-fortuna {
+    margin-left: 0vw;
+  }
+  #fortuna-bg {
+    width: 105vw;
+    height: 145vw;
+    margin-left: -20vw;
+  }
+  .fortuna-group {
+    margin-left: 5vw;
+    margin-top: -113vw;
+    gap: 7.3vw;
+  }
+  #pointsss {
+    width: 12vw;
+  }
+  #circle-fill-fortuna {
+    height: 4vw;
+    width: 4vw;
+  }
+  #circle-outline-fortuna {
+    height: 4vw;
+    width: 4vw;
+  }
+  #circle-outline-fortuna-1 {
+    height: 4vw;
+    width: 4vw;
+  }
+  #line-fortuna-1 {
+    position: absolute;
+    top: 38vw;
+    width: 65vw;
+  }
+  #line-fortuna-2 {
+    position: absolute;
+    top: 98vw;
+    width: 65vw;
+  }
+  #line-fortuna-3 {
+    position: absolute;
+    top: 40vw;
+    left: 5vw;
+    height: 60vw;
+  }
+  #fortuna-animated {
+    margin-top: 14vw;
+    width: 40vw;
+    height: 40vw;
+    margin-left: 14.5vw;
+  }
+  #jackpot-text::after {
+    font-size: 6vw !important;
+  }
+  #bankrupt-text::after {
+    font-size: 6vw !important;
+  }
+  .fortune-text {
+    gap: 7vw;
+    margin-left: 5vw;
+    margin-top: 14vw;
+  }
+
+  /* кр кодsection-10-qr-code */
+  .section-10-qr-code {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  /* тревожное уведомление */
+  .section9-notification-clock {
+    padding-top: 90vw;
+    margin-left: 2vw;
+    margin-top: -217vw;
+  }
+  #notification-clock-bg-rectangle {
+    width: 90vw;
+    height: 32vw;
+    border-radius: 3vw;
+  }
+  .elements-on-rectangle-clock {
+    margin-top: -27vw;
+    margin-left: 7vw;
+  }
+  #time-passed-text {
+    width: 54vw;
+    margin-top: 3vw;
+    margin-left: 7vw;
+  }
+  #notification-scheme-clock {
+    margin-top: 32vw;
+    margin-left: -70vw;
+    width: 25vw;
+  }
+  #close-notification-clock {
+    width: 4vw;
+  }
+  .notification-clock-title {
+    gap: 3vw;
+  }
+
+  /* часы */
+  .section-10-clock {
+    margin-top: 80vw;
+    margin-left: 10vw;
+  }
+
+  #clock {
+    width: 80vw;
+  }
+
+  /* футер */
+  .section-11-footer {
+    margin-top: 85vw;
+    padding-bottom: 11vw;
+  }
+
+  #footer-bg {
+    position: absolute;
+    visibility: hidden;
+  }
+  #footer-rectangle {
+    visibility: visible;
+    width: 110vw;
+    height: 40vw;
+    background-color: #fdfefd;
+  }
+  .created-by {
+    position: absolute;
+    left: 5vw;
+    top: 5vw;
+  }
+  #schemes-footer {
+    visibility: hidden;
+  }
+  .numbers {
+    margin-left: 36vw;
+    margin-top: -45vw;
+  }
+  .arrows-clock {
+    position: absolute;
+    left: 23vw;
+    top: 45vw;
+  }
+  #arrow-clock-vertical {
+    height: 22vw;
+  }
+  #arrow-clock-horizontal {
+    width: 19vw;
+    top: 20vw;
+    left: -0.23vw;
+  }
+  #number1 {
+    font-size: 9vw;
+    top: -31vw;
+  }
+  #number2 {
+    font-size: 9vw;
+    top: 31vw;
+  }
+  #number3 {
+    font-size: 9vw;
+    left: 31vw;
+  }
+  #number4 {
+    font-size: 9vw;
+    left: -31vw;
+  }
+  #arrow-clock-vertical {
+    animation: arrowClock1 0.15s steps(1) infinite !important;
+  }
+
+  @keyframes arrowClock1 {
+    0%,
+    100% {
+      transform: rotate(0deg);
+      left: -1.3vw;
+      top: 0px;
+    }
+    50% {
+      transform: rotate(15deg);
+      left: 1.3vw;
+      top: 0px;
+    }
+  }
+}
